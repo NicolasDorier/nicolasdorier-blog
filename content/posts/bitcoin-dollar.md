@@ -58,13 +58,13 @@ The rest of this piece will explore the economic mechanisms for this innovation,
 
 ## Structure
 
-First, we will explore the concrete stability mechanisms of pegging the USD via Lightning and generalize it to the pegging of a portfolio, potentially with derivatives.
+First, we will explore the concrete stability mechanisms of USD peg via Lightning and generalize it to the peg of a portfolio, potentially with derivatives.
 
 Then, we will examine the stability mechanisms involved in incoming and outgoing payments.
 
 This will be followed by a short section highlighting the risks and limitations of our approach.
 
-We will then conclude by enumerating the different costs involved for the entity providing such a pegging service (also called the `pegging provider`).
+We will then conclude by enumerating the different costs involved for the entity providing such a peg service (also called the `peg provider`).
 
 
 ## Stability Mechanisms
@@ -75,7 +75,7 @@ While this part focus on only two individuals, we will explore in the later sect
 
 Feel free to skip to the next section if you wish to skip over the calculations.
 
-### Dollar pegging on Lightning
+### Dollar peg on Lightning
 
 Let's imagine a merchant, `Alice`, wants to be able to receive Bitcoin payments that are pegged to the dollar. This merchant is connected to a Lightning Service Provider (LSP), `Bob`, providing such a service.
 
@@ -112,7 +112,7 @@ The new state will be
 |---|---|---|
 | 0.45454545  | 50,000| 0.54545455 |
 
-`Unsettled funds` can become settled periodically or immediately by simply sending a lightning payment between `Alice` and `Bob` to make the actual channel balance match the expected one. (This mechanism is called a `Stable Channel`)
+`Unsettled funds` can become settled periodically or immediately by simply sending a lightning payment between `Alice` and `Bob` to make the actual channel balance match the expected one. (This mechanism is called a [Stable Channel](https://stablechannels.com/))
 
 ### Portfolio pegging
 
