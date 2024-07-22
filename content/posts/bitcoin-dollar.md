@@ -1,8 +1,6 @@
 +++
 title = 'Bitcoin Dollar'
 date = 2024-07-22T15:10:31+09:00
-draft = true
-
 +++
 
 ## Introduction
