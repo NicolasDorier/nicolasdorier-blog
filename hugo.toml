@@ -1,9 +1,21 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.nicolas-dorier.com/'
 languageCode = 'en-us'
-title = 'Nicolas Dorier Blog'
+title = "Nicolas Dorier's Blog"
 theme = 'tailwind'
+
+[params]
+  author = 'Nicolas Dorier'
+  keywords = "bitcoin, development"
+  subtitle = ""
+[params.meta]
+  favicon = true
+  description = 'A blog by Nicolas Dorier talking about Bitcoin and development'
+
 [params.footer]
   poweredby = false
+[params.header]
+  logo = "images/NicolasDorier.png"
+  sticky = false
 
 [[params.social_media.items]]
   enabled = true
