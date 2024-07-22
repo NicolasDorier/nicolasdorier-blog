@@ -1,0 +1,7 @@
+/resources
+/public
+.vs
+*.exe
+*.log
+debug.*
+/*.lock

@@ -1,0 +1,26 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Nicolas Dorier Blog'
+theme = 'tailwind'
+[params.footer]
+  poweredby = false
+
+[[params.social_media.items]]
+  enabled = true
+  title = '@NicolasDorier on GitHub'
+  icon = 'brand-github'
+  link = 'https://github.com/NicolasDorier/'
+
+[[params.social_media.items]]
+  enabled = true
+  title = '@NicolasDorier on X'
+  icon = 'brand-x'
+  link = 'https://x.com/NicolasDorier'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$','$']]
