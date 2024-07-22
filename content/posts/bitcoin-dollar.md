@@ -277,6 +277,16 @@ The stable channel approach also suffers from assets that fluctuate significantl
 
 As such, stable channels are not suitable for betting or over-leveraging.
 
+### Free options
+
+A malicious actor might exploit `unsettled funds` as a free option by intentionally breaking the peg when it benefits them.
+
+Here are some ideas to mitigate this risk:
+* Implement a fee for setting up a peg relation.
+* Implement a captcha for setting up a peg relation.
+* Prevent re-establishment of a peg relation by blacklisting the channel, thus requiring the actor to incur costs to open a new channel.
+* In the context of an LSP serving a local community where users are not fully anonymous, ban offending users.
+
 ### Discreet Log Contracts over Lightning approach (DLCs)
 
 Discreet Log Contracts over Lightning might remove the need to send BTC back and forth to settle differences.
