@@ -311,6 +311,8 @@ The crucial aspect is that the price sources remain relatively aligned. If they 
 
 If the channel capacity becomes too low to cover the consumer's assets, the peg can no longer be assured, and the peg relation will break.
 
+A way to avoid this scenario is for Alice to send bitcoins periodically to an exchange, thus rebalancing the channel and allowing the relation to continue.
+
 ## Cost model
 
 ### Advanced cost
