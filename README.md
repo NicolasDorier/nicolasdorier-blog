@@ -2,4 +2,6 @@
 
 Repository of my personal blog on https://blog.nicolas-dorier.com/
 
-This is deployed on Azure Static Website via a github action.
+The site is relying on the static blog generator [HUGO](https://gohugo.io/) on the [Tailwind theme](https://github.com/tomowang/hugo-theme-tailwind).
+
+It is deployed on Azure Static Website via a github action.
