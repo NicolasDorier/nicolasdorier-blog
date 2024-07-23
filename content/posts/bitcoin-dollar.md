@@ -299,6 +299,14 @@ On the other hand, unlike stable channels, DLCs do not suffer from assets fluctu
 
 More input on this matter is needed to reach a conclusion.
 
+### Price Oracle issue
+
+To maintain the peg, a reliable asset price feed is necessary, which brings up concerns about oracle risks. The DLC approach is more susceptible to these issues compared to the stable channel approach.
+
+In stable channel setups, the parties don’t need to agree on or share the same price sources. Therefore, a party can independently choose to gather prices from multiple sources and combine them.
+
+The crucial aspect is that the price sources remain relatively aligned. If they diverge significantly, the only consequence is the breakdown of the peg relationship.
+
 ### Lack of funds
 
 If the channel capacity becomes too low to cover the consumer's assets, the peg can no longer be assured, and the peg relation will break.
