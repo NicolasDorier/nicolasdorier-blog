@@ -303,7 +303,7 @@ More input on this matter is needed to reach a conclusion.
 
 To maintain the peg, a reliable asset price feed is necessary, which brings up concerns about oracle risks. The DLC approach is more susceptible to these issues compared to the stable channel approach.
 
-In stable channel setups, the parties don’t need to agree on or share the same price sources. Therefore, a party can independently choose to gather prices from multiple sources and combine them.
+In stable channel setups, the parties don’t need to agree on or share the same price sources. Therefore, a party can independently choose to gather prices from multiple sources, filter fluctuations, and aggregate them.
 
 The crucial aspect is that the price sources remain relatively aligned. If they diverge significantly, the only consequence is the breakdown of the peg relationship.
 
