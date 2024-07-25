@@ -5,7 +5,7 @@ theme = 'tailwind'
 
 [outputFormats.RSS]
     mediaType              = "application/rss+xml"
-    baseName               = "feeds/feed.rss"
+    baseName               = "posts/feeds/feed.rss"
     rel                    = "alternate"
     isPlainText            = false
     isHTML                 = false
