@@ -7,7 +7,7 @@ images = ["/images/Exchange-Token-Header.webp"]
 
 ## The Enterprise Blockchain era
 
-![Enterprise Blockchain](/images/corporate.webp)
+![Enterprise Blockchain](/images/Corporate.webp)
 
 I was involved in Bitcoin during 2016-2017. For those who weren't there or have forgotten, it was a time when every giant corporation wanted to include ~AI~ Blockchain in everything they were doing, even when it didn’t make sense.
 
