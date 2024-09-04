@@ -74,7 +74,7 @@ These advantages are real, but there are additional benefits:
 * **No externalities**: Bad ideas don’t leave any trace on a shared data structure.
 
 When you think about it, what you need for digital assets with centralized issuers isn’t a blockchain but a compatibility layer.
-Sucher layer seldom emerge from established players, and instead really thrive on Open Source, due to the ease of developing on top of it without permission. (See TCP/IP's history)
+Such layer seldom emerge from established players, and instead really thrive on Open Source, due to the ease of developing on top of it without permission. (See TCP/IP's history)
 
 There are three types of ledger technology with which we track assets: Bearer assets, centralized ledgers, and Blockchains.
 
