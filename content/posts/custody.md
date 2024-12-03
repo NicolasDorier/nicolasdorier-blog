@@ -12,13 +12,13 @@ The loose use of the term custody is, in my opinion, very dangerous. If you stro
 
 We’ve seen this pattern before: first, a law targeting terrorists, then a gradual expansion of the definition until, one day, someone saying something offensive online is labeled a terrorist under the new terms.
 
-Interestingly, this push to broaden the definition of custody isn’t even coming from regulators—it’s being driven by overly zealous individuals attempting to define what a Layer 2 solution is, hoping to associate themselves with the success of the Lightning Network.
+Interestingly, this push to broaden the definition of custody isn’t even coming from regulators—it’s being driven by overly zealous protocols attempting to define what a `Layer 2` solution is, hoping to associate themselves with the success of the Lightning Network.
 
 So, here it is: a strict, uncompromising definition of custody.
 
 ## The definition
 
-Imagine going to a shopping mall. It's your wife's birthday, and she wants to buy a new bag. You decide to pay for the bag.
+Imagine going to a shopping mall. It's your wife's birthday, and she wants to buy a new bag. You decide to pay, you take your wallet from your pocket then hands out the cash to the cashier.
 
 In this case, it’s obvious that no one would claim your wife is a custodian. Why? Because you **CAN** still use your wallet without needing her permission.
 
@@ -55,7 +55,7 @@ We need to address the two points separately:
 1. Protocols allowing third-party collusion to steal funds
 2. Protocols that may fail under external circumstances (high fee spike, pinning attacks)
 
-## Non-Custodial Protocols
+## About third party collusions
 
 What about protocols like `Statechains` or even `Ark`? Are they really non-custodial if collusion might lead to the theft of funds?
 
@@ -73,9 +73,9 @@ If there is no unilateral exit, by our definition, there must be a custodian. Th
 Now back to `Bitcoin`. If a protocol like `Statechains` or `Ark` allows theft through collusion as part of its security model, does that imply custody?
 No, because unlike the Netflix example above, there is a unilateral exit. Therefore, there cannot be a custodian.
 
-## External circumstances
+## About external circumstances
 
-If unilateral exit isn't possible due to factors like:
+Unilateral exit might become impossible due to factors like:
 * Server downtime
 * Network congestion
 * High fees
