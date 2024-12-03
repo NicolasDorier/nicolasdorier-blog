@@ -117,4 +117,4 @@ I hope I’ve successfully made the case for a strict and uncompromising definit
 
 With this article, I hope to encourage you to confidently call out anyone misusing terms like `custody` or `Layer 2`. Attacks on language often pave the way for broader confusion or manipulation, so it is crucial to stand your ground and defend clarity.
 
-Being aware of the security model of those protocol is still important, because as we have said here, non-custody doesn't mean that you can't lose control of the funds. But this is another big topic, and I only wanted to cover the definition of custody.
+Being aware of the security model of these protocols is still important because, as we've discussed, non-custody doesn’t mean you can't lose control of your funds. However, this is a broader topic, and my focus here was solely on defining custody.
