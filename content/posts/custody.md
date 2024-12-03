@@ -3,7 +3,6 @@ title = "Erosion of the Meaning of Custody"
 date = 2024-12-03T12:46:00+09:00
 image = "/images/custody.webp"
 images = ["/images/custody.webp"]
-draft = true
 +++
 
 ## Introduction
