@@ -1,5 +1,5 @@
 baseURL = 'https://blog.nicolas-dorier.com/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = "Nicolas Dorier's Blog"
 theme = 'tailwind'
 

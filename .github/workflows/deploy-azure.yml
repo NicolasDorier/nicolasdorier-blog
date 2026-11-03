@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         with:
           submodules: true
       - name: Build And Deploy
@@ -26,4 +26,4 @@ jobs:
           output_location: "public"
           ###### End of Repository/Build Configurations ######
         env:
-          HUGO_VERSION: 0.129.0
+          HUGO_VERSION: 0.169.0
