@@ -22,6 +22,7 @@ theme = 'tailwind'
 [params.footer]
   poweredby = false
 [params.header]
+  title = "Nicolas Dorier's Blog"
   logo = "images/NicolasDorier.png"
   sticky = false
 
