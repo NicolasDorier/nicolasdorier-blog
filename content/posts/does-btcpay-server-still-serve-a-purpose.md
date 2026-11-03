@@ -7,15 +7,15 @@ images = ["/images/btcpay-server-purpose.webp"]
 toc = false
 +++
 
-I think open source is facing a sort of existential crisis. And I don't think we're the only ones. We're just ahead of the curve.
+I think open source is facing a sort of existential crisis. And I don't think we're the only ones. We're just ahead of the curve.\
 In a world where intelligence is abundant, users can absolutely vibe code anything they want without our help. Why are we useful?
 
 I would argue that vibe coding may even be safer! A developer builds software for many users, so if that software is compromised, many users are compromised too, making it a perfect target. (Now imagine you're working in Bitcoin, and your software is open source)
 
-On the other hand, our merchant—let's call him Mike—is vibe coding his own software. One that doesn't warrant this kind of attention from attackers due to the limited reward and the closed sourceness nature of it.
-Also, Mike's "mywares" have a tiny attack surface because they don't include any superfluous features he'll never use.
-You say: "But he can't maintain it over time!"
-I reply: "Who care about maintenance?"
+On the other hand, our merchant—let's call him Mike—is vibe coding his own software. One that doesn't warrant this kind of attention from attackers due to the limited reward and the closed sourceness nature of it.\
+Also, Mike's "mywares" have a tiny attack surface because they don't include any superfluous features he'll never use.\
+You say: "But he can't maintain it over time!"\
+I reply: "Who care about maintenance?"\
 Mike is the only user. He doesn't maintain it. He throws the whole project into the fire and raises a new one from the ashes with a new prompt.
 
 And I tell you, I've been a developer for more than 20 years. I'm not being ironic. Most of my experience has been about keeping software maintainable, allowing it to grow steadily without collapsing under its own weight. The rules have changed. How can I serve Mike now? Mike is all that ultimately matters to BTCPay Server. No Mike to serve, no point in continuing.
